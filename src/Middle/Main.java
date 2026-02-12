@@ -13,9 +13,16 @@ public class Main {
         for (int i = 0; i < size; i++) {
             BOB[i] = scan.nextInt();
         }
+        int sum = 0;
+        for(int num : BOB){
+            sum = sum + num;
+        }
+
         System.out.print("Ваш массив: ");
-        for (int num : BOB)
-            System.out.print(num);
-        System.out.println(" Сумма массива: " + Arrays.stream(BOB).sum());
+        for (int num : BOB) {
+            System.out.print(num + " ");
+        }
+
+        System.out.println(" Сумма массива: " + sum);
     }
 }
