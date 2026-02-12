@@ -15,10 +15,8 @@ public class Main4 {
             System.out.println("Попробуйте еще раз");
             size = scan.nextInt();
         }
-        //проверили условие
 
         int[][] arrayInt = new int[size][size];
-        //задали размер массиву
 
         System.out.println("заполните массив " + size + "х" + size + ":");
         for (int i = 0; i < size; i++) {
