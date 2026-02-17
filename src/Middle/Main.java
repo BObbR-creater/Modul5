@@ -7,18 +7,18 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите размер массива: ");
         int size = scan.nextInt();
-        int[] BOB = new int[size];
+        int[] Array = new int[size];
         System.out.println("Заполните массив на " + size + " элемента(ов).");
         for (int i = 0; i < size; i++) {
-            BOB[i] = scan.nextInt();
+            Array[i] = scan.nextInt();
         }
         int sum = 0;
-        for(int num : BOB){
+        for(int num : Array){
             sum = sum + num;
         }
 
         System.out.print("Ваш массив: ");
-        for (int num : BOB) {
+        for (int num : Array) {
             System.out.print(num + " ");
         }
 
